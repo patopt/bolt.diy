@@ -1,3 +1,6 @@
+type: uploaded file
+fileName: patopt/bolt.diy/bolt.diy-3f6050b227644834130790c5d1664607c1df5a15/app/lib/modules/llm/registry.ts
+fullContent:
 import AnthropicProvider from './providers/anthropic';
 import CohereProvider from './providers/cohere';
 import DeepseekProvider from './providers/deepseek';
@@ -17,6 +20,7 @@ import HyperbolicProvider from './providers/hyperbolic';
 import AmazonBedrockProvider from './providers/amazon-bedrock';
 import GithubProvider from './providers/github';
 import MoonshotProvider from './providers/moonshot';
+import PuterProvider from './providers/puter';
 
 export {
   AnthropicProvider,
@@ -38,4 +42,5 @@ export {
   LMStudioProvider,
   AmazonBedrockProvider,
   GithubProvider,
+  PuterProvider,
 };
